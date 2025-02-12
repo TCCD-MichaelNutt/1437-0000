@@ -1,6 +1,0 @@
-build/*
-.github/*
-*.d
-*.o
-bin/*
-obj/*
