@@ -21,6 +21,11 @@
 			]
 		},
 		"codespaces": {
+			"repositories": {
+		          "TCCD-MichaelNutt/*": {
+		            "permissions": "write-all"
+		          }
+			},
 			"openFiles": [
 				"README.md",
 				"src/main.cpp",
