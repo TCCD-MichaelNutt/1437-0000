@@ -1,0 +1,19 @@
+Max 50 Character Subject
+
+Detailed summary of changes, keep each line to less than 72 characters
+
+# Use the following symbols for the subject line:
+# feat: A new feature for the user.
+#     Example: feat(login): add social media login options
+# fix: A bug fix for the user.
+#     Example: fix(profile): resolve error when saving empty address field
+# docs: Documentation changes only.
+#     Example: docs: update installation instructions
+# style: Code style changes (formatting, semicolons, etc.) - no functional code changes.
+#     Example: style: format code with Prettier
+# refactor: Code changes that neither fix a bug nor add a feature.
+#     Example: refactor(user): rename User class to Member
+# test: Adding, updating, or refactoring tests.
+#     Example: test(cart): add unit tests for checkout process
+# chore: Changes to build tools, development environment, etc.
+#     Example: chore: update Node.js to version 20

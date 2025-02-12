@@ -1,0 +1,20 @@
+name: Generate Changelog
+
+on:
+  push:
+    branches: [ trunk ]
+
+jobs:
+  changelog:
+    runs-on: ubuntu-latest
+    name: Generate and Commit Changelog
+
+    steps:
+    - name: Generate Changelog based on Conventional Commits
+  # You may pin to the exact commit or the version.
+  # uses: smichard/conventional_changelog@f83f4b06cebb1af5c8c06bc38d1d59d66949b2c9
+      uses: smichard/conventional_changelog@2.0.0
+        with:
+           # GitHub token
+           GITHUB_TOKEN: 
+          
